@@ -1,0 +1,12 @@
+name: Demo Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  print name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "Alejandro Adell Pina"
+
